@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-BOOK HTML e CSS</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
@@ -28,6 +29,7 @@
                 <p class="text">
                     Preencha o formulário abaixo para acessar o E-book
                 </p>
+     <div class="fields">
                 <label for="nome">Nome</label>
                 <input type="text" name="nome" id="nome">
                 <label for="email">E-mail</label>
@@ -46,6 +48,7 @@
                     <option value="senior">
                         Senior
                     </option>
+         
                 </select>
                 <Label>
                     Qual é seu objetivo?
@@ -55,15 +58,18 @@
                     <option value="melhorar">Aperfeiçoar minhas habilidades</option>
                     <option value="networking">Aumentar meu networking</option>
                 </select>
-                <div>
+                <div class="radio">
                     <p>Você possui interesse em iniciar um curso online?</p>
                     <input type="radio" name="interesse-curso-online" id="sim" value="sim">
                     <label for="sim">Sim</label>
+                </div>
+                <div class="radio">
                     <input type="radio" name="interesse-curso-online" id="nao" value="nao">
                     <label for="nao">Não</label>    
                 </div>
-                <label for="pergunta">7+8</label>
+                <label for="pergunta">7+8?</label>
                 <input type="text" id="pergunta" name="pergunta">
+     </div>                
                 <button class="button">Aprender HTML e CSS agora!</button>
                 <span class="spam">Prometemos não utilizar suas informações de contato para enviar qualquer tipo de SPAM</span>
             </form>
